@@ -1,10 +1,5 @@
 .custom-header {
-  background: #716171;
-}
-body {
-  background-color: #fcfafa;
-  height: 100vh;
-  margin: 0;
+  background: #b5ecf9;
 }
 
 .nav__logo {
@@ -15,6 +10,8 @@ body {
 .title {
   font-size: 50px;
   margin-left: 250px;
+  color: rgb(86, 3, 93);
+  text-shadow: 3px 3px white;
 }
 
 .box {
