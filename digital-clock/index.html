@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital clock</title>
+   
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="custom-header text-white py-3">
+      <div class="container d-flex text-center">
+        <img src="logo.png" alt="Logo" class="nav__logo" />
+        <h1 class="title">Digital clock</h1>
+      </div>
+    </header>
+
+    <div class="text-center mt-5">
+      <button class="btn btn-default mr-5" id="24" onclick="show24HourFormat()">
+        24 Hours
+      </button>
+      <button class="btn btn-default" id="12" onclick="show12HourFormat()">
+        12 Hours
+      </button>
+    </div>
+
+    <div class="clock text-center my-5">
+      <span id="hours">00</span> : 
+      <span id="minutes">00</span> :
+      <span id="seconds">00</span>
+      <span id="am_pm">AM</span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
