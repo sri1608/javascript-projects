@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.custom-header {
+  background: #f9efef;
+  padding: 20px;
+}
+
+.body{
+  background: linear-gradient(to right, rgb(98, 111, 233), rgb(78, 230, 159)); background-color: black;
+ background-color: #ffe8e8;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+.title {
+  font-size: 50px;
+  margin-left: 350px;
+  color: rgb(86, 3, 93);
+  text-shadow: 2px 1px rgb(4, 4, 4);
+}
+
+.nav__logo {
+  height: 4rem;
+
+}
+.container{
+  margin-inline: 30px;
+}
+
+.calculator {
+ 
+  width: 100%;
+  min-height: 80vh;
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  gap: 8px;
+  border-radius: 10px;
+}
+ .output {
+    background-color: rgb(189, 65, 231);
+    grid-column: 1 / 5;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 4px;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+   button {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    box-shadow: 0px 0px 5px #999999;
+    cursor:pointer;
+    transition: all 0.3s ease;
+  }
+   button:hover{
+      background-color: rgb(188, 194, 200);
+  }
+.span-two{
+grid-column: span 2;
+}

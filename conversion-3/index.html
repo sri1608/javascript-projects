@@ -12,120 +12,122 @@
   </head>
   <body>
     <header class="custom-header text-white py-3">
-      <div class="container d-flex text-center">
+      <div class="container d-flex justify-content-between align-items-center">
         <img src="logo.png" alt="Logo" class="nav__logo" />
-        <h1 class="title">Advance conversions</h1>
+        <h1 class="title">Advance Conversions</h1>
       </div>
     </header>
     <div class="text-center my-5">
       <button
-        class="btn btn-default mr-5"
+        class="btn btn-default mr-5 center-content active"
         id="heightConversion"
-        onclick="heightConversions()"
       >
-        cms/ feet/ inches
+        cms/feet/inches
       </button>
-      <button
-        class="btn btn-default mr-5"
-        id="degreeConversion"
-        onclick="degreeConversions()">
-        fahrenheit/celcius
+      <button class="btn btn-default mr-5 center-content" id="degreeConversion">
+        fahrenheit/celsius
       </button>
-      <button
-        class="btn btn-default mr-5"
-        id="weightConversion"
-        onclick="weightConversions()"
-      >
+      <button class="btn btn-default mr-5 center-content" id="weightConversion">
         Kgs/pounds
       </button>
     </div>
-    <div id="block1">
-      <div class="box">
-        <div class="conversion-box">
-          <div class="input-group">
-            <div class="input-item">
-              <label>Centimeters</label>
-              <input
-                class="measurments"
-                id="inputCentimeters"
-                type="text"
-                placeholder="1cm -> 0.0328084F&0.393701I"
-              />
-            </div>
-            <div class="input-item">
-              <label>Feet</label>
-              <input
-                class="measurments"
-                id="inputFeet"
-                type="text"
-                placeholder="1feet -> 30.48cms & 12I"
-              />
-            </div>
-            <div class="input-item">
-              <label>Inches</label>
-              <input
-                class="measurments"
-                id="inputInches"
-                type="text"
-                placeholder="1Inch -> 0.0833333F & 2.54cms"
-              />
+
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-8 mb-4 height-card">
+        <div class="card border-5">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <label for="inputCentimeters">Centimeters</label>
+                <input
+                  class="measurments"
+                  id="inputCentimeters"
+                  type="text"
+                  placeholder="1cm -> 0.0328084F&0.393701I"
+                />
+              </div>
+              <div class="col">
+                <label for="inputFeet">Feet</label>
+                <input
+                  class="measurments"
+                  id="inputFeet"
+                  type="text"
+                  placeholder="1feet -> 30.48cms & 12I"
+                />
+              </div>
+              <div class="col">
+                <label for="inputInches">Inches</label>
+                <input
+                  class="measurments"
+                  id="inputInches"
+                  type="text"
+                  placeholder="1Inch -> 0.0833333F & 2.54cms"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div id="block2">
-       <div class="box">
-      <div class="conversion-box">
-        <div class="input-group">
-          <div class="input-item">
-            <label>fahrenheit</label>
-      <input
-        class="measurments"
-        id="inputFahrenheit"
-        type="number"
-        placeholder="1F ->-17.2222°c"
-      />
-          </div>
-          <div class="input-item">
-            <label>celcius</label>
-            <input
-              class="measurments"
-              id="inputCelcius"
-              type="number"
-              placeholder="1°C ->33.8F"
-            />
+
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-6 mb-4 degree-card">
+        <div class="card border-5">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <label for="inputFahrenheit">Fahrenheit</label>
+                <input
+                  class="measurments"
+                  id="inputFahrenheit"
+                  type="number"
+                  placeholder="1F ->-17.2222°c"
+                />
+              </div>
+              <div class="col">
+                <label for="inputCelcius">Celsius</label>
+                <input
+                  class="measurments"
+                  id="inputCelcius"
+                  type="number"
+                  placeholder="1°C ->33.8F"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div> 
     </div>
-    <div id="block3">
-      <div class="box">
-        <div class="conversion-box">
-          <div class="input-group">
-            <div class="input-item">
-              <label>Kilograms</label>
-              <input
-                class="measurments"
-                id="inputKilograms"
-                type="number"
-                placeholder="1kg -> 2.205lb"
-              />
-            </div>
-            <div class="input-item">
-              <label>Pounds</label>
-              <input
-                class="measurments"
-                id="inputPound"
-                type="number"
-                placeholder="1lb -> 0.453592kg"
-              />
+
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-6 mb-4 weight-card">
+        <div class="card border-5">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <label for="inputKilograms">Kilograms</label>
+                <input
+                  class="measurments"
+                  id="inputKilograms"
+                  type="number"
+                  placeholder="1kg -> 2.205lb"
+                />
+              </div>
+              <div class="col">
+                <label for="inputPound">Pounds</label>
+                <input
+                  class="measurments"
+                  id="inputPound"
+                  type="number"
+                  placeholder="1lb -> 0.453592kg"
+                />
+              </div>
             </div>
           </div>
         </div>
-      
-   
-      </div> <script src="script.js"></script>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>

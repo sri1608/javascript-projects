@@ -18,16 +18,18 @@ main {
 }
 .title {
   font-size: 50px;
-  margin-left: 380px;
+  margin-right: 160px;
   color: rgb(86, 3, 93);
   text-shadow: 2px 1px rgb(4, 4, 4);
 }
 
 .nav__logo {
   height: 4rem;
-  margin-left: -140px;
-}
 
+}
+.container{
+  margin-inline: 30px;
+}
 
 .btn-default {
   background-color: rgb(251, 248, 252);
@@ -52,3 +54,4 @@ main {
   letter-spacing: 2px;
   background-color: white;
 }
+

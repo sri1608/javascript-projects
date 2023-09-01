@@ -1,0 +1,104 @@
+.custom-header {
+  background: #f9efef;
+  margin-bottom: 50px;
+}
+.body{ 
+  background-color: #ffe8e8;
+}
+.title {
+  font-size: 50px;
+  color: rgb(86, 3, 93);
+  text-shadow: 2px 1px rgb(4, 4, 4);
+}
+.nav__logo {
+  height: 4rem;
+}
+.container{
+  margin-inline: 30px;
+}
+.card-container {
+  padding: 10px;
+  border: 5px solid black;
+  margin: 0 auto;
+  max-width: 80%;
+  background: #deedfc;
+}
+.left {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #7a5b6a;
+  font-family: inherit;
+  color: inherit;
+  font-size: 50px;
+  padding: 30px;
+  width: 60%;
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+}
+.btn {
+  border: none;
+  background-color: #e06bcd;
+  color: #222;
+  font-size: 30px;
+  font-family: inherit;
+  padding: 20px 40px;
+  cursor: pointer;
+  margin-bottom: 70px;
+}
+.btn:hover {
+  background-color: #ce44c0;
+}
+.between {
+  font-size: 25px;
+  color: #555;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 30px;
+}
+.card-container h1 {
+  position: absolute;
+  top: 15%;
+  right: 16%;
+  font-size: 45px;
+}
+
+.number {
+  background: #eee;
+  color: #333;
+  font-size: 81px;
+  width: 13%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(80%, -210%);
+}
+
+.message {
+  position: absolute;
+  top: 56%;
+  right: 12%;
+  font-size: 24px;
+}
+
+.label-score {
+  position: absolute;
+  top: 69%;
+  right: 30%;
+  font-size: 24px;
+}
+
+.label-highscore {
+  position: absolute;
+  top: 79%;
+  right: 27%;
+  font-size: 30px;
+}

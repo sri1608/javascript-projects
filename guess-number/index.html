@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing game</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+   
+  </head>
+  <body>
+    <header class="custom-header text-white py-3">
+      <div class="container d-flex justify-content-between align-items-center">
+        <img src="logo.png" alt="Logo" class="nav__logo" />
+        <h1 class="title">Guessing Number Game</h1>
+      </div>
+    </header>
+    <div class="card card-container">
+      <div class="card-body">
+        <section class="left">
+          <input type="number" class="guess" />
+          <button class="btn" onClick="Check()">Check!</button>
+          <button class="btn" onClick="again()">Play Again!</button>
+        </section>
+        <section class="right">
+          <p class="between">(Between 1 and 20)</p>
+          <h1>Guess My Number!</h1>
+          <div class="number">?</div>
+          <p class="message">Start guessing...</p>
+          <p class="label-score">💯 Score: <span class="score">20</span></p>
+          <p class="label-highscore">
+            🥇 Highscore: <span class="highscore">0</span>
+          </p>
+        </section>
+      </div>
+    </div>
+    <script src="script.js"> </script>
+  </body>
+</html>

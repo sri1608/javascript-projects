@@ -1,0 +1,85 @@
+.custom-header {
+  background: #f9efef;
+}
+
+.body{
+  background-color: #ffe8e8;
+}
+
+.box {
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(57, 118, 223);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 270px;
+  font-size: 25px;
+}
+
+.nav__logo {
+  height: 4rem;
+  margin-left: -140px;
+}
+
+.title {
+  font-size: 50px;
+  margin-right: 280px;
+  color: rgb(86, 3, 93);
+  text-shadow: 2px 1px rgb(4, 4, 4);
+}
+
+
+button {
+  background-color: #04b43f;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button:disabled,
+button[disabled] {
+  background-color: #3c7949;
+}
+
+button:hover {
+  background-color: #058130;
+}
+
+.question-row p {
+  font-weight: bold;
+}
+
+.options label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.result {
+  text-align: center;
+  margin: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  display: none;
+}
+
+#quiz-form {
+  margin: 20px;
+}
+
+#submit-retake-container {
+  position: inherit;
+  margin-left: 350px;
+  margin-bottom: 20px;
+}
+
+#retake-btn {
+  display: none;
+  margin-left: 20px;
+
+
+}
+
+

@@ -1,18 +1,19 @@
-
 .custom-header {
-    background: #716171;
-  }
-  
-  .nav__logo {
-    margin-left: -140px;
-    height: 4rem;
-  }
-  
-  .title {
-    font-size: 50px;
-    margin-left: 210px;
-  }
-  
+  background: #f9efef;
+}
+.nav__logo {
+
+  height: 4rem;
+}
+
+.title {
+  font-size: 50px;
+  color: rgb(86, 3, 93);
+  text-shadow: 2px 1px rgb(4, 4, 4);
+}
+.container{
+  margin-inline: 30px;
+}
   .box {
     display: flex;
     flex-direction: column;
